@@ -229,9 +229,9 @@ const projects = [
     source_code_link: "https://github.com/SanjayaPrasadRajapaksha/Shopping-App",
   },
   {
-    name: "Chat App",
+    name: "LMS",
     description:
-      "Built a real-time chat app using MongoDB, Express, React, Node.js, and Socket.IO. Features include JWT authentication, instant messaging, responsive design with TailwindCSS, and real-time notifications with React Hot Toast. Demonstrates full-stack development and real-time communication skills.",
+      "Developed a full-stack Learning Management System using React, Node.js, Express, and MongoDB. Implemented user authentication with Clerk, payments with Stripe, and file uploads via Cloudinary. The platform features course creation, progress tracking, and a responsive UI built with Tailwind CSS and Vite.",
     tags: [
       {
         name: "react",
@@ -250,8 +250,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: chatApp,
-    source_code_link: "https://github.com/SanjayaPrasadRajapaksha/Chat-App-MERN",
+    image: lms, // Replace with actual image variable or URL
+    source_code_link: "https://github.com/SanjayaPrasadRajapaksha/LMS", // Update with correct repo link
   },
   {
     name: "POS System",
@@ -321,9 +321,9 @@ const projects = [
     source_code_link: "https://github.com/SanjayaPrasadRajapaksha/Supermarket_MVC_CRUD",
   },
   {
-    name: "LMS",
+    name: "Chat App",
     description:
-      "Developed a full-stack Learning Management System using React, Node.js, Express, and MongoDB. Implemented user authentication with Clerk, payments with Stripe, and file uploads via Cloudinary. The platform features course creation, progress tracking, and a responsive UI built with Tailwind CSS and Vite.",
+      "Built a real-time chat app using MongoDB, Express, React, Node.js, and Socket.IO. Features include JWT authentication, instant messaging, responsive design with TailwindCSS, and real-time notifications with React Hot Toast. Demonstrates full-stack development and real-time communication skills.",
     tags: [
       {
         name: "react",
@@ -342,9 +342,9 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: lms, // Replace with actual image variable or URL
-    source_code_link: "https://github.com/SanjayaPrasadRajapaksha/LMS", // Update with correct repo link
-  }
+    image: chatApp,
+    source_code_link: "https://github.com/SanjayaPrasadRajapaksha/Chat-App-MERN",
+  },
 
 ];
 
