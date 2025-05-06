@@ -25,6 +25,7 @@ import {
   mysql,
   shoppingApp,
   sms,
+  lms
 } from "../assets";
 
 export const navLinks = [
@@ -171,7 +172,7 @@ const experiences = [
       "Participated in team code reviews and provided development support throughout the lifecycle.",
       "Deployed and managed backend services, including hosting via cPanel and debugging in production.",
     ],
-  },  
+  },
 ];
 
 // const testimonials = [
@@ -277,24 +278,24 @@ const projects = [
     name: "Book Store App",
     description:
       "Developed a full-stack web app using the MERN stack. The frontend features React, Tailwind CSS, and Firebase for authentication, while the backend uses Express.js, MongoDB, and Node.js. Key functionalities include routing with React Router, local storage with LocalForage, and dynamic components with Swiper and React Icons.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "node",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "express",
-          color: "orange-text-gradient",
-        },
-      ],
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "orange-text-gradient",
+      },
+    ],
     image: bookApp,
     source_code_link: "https://github.com/SanjayaPrasadRajapaksha/Book-Store-App-MERN",
   },
@@ -302,23 +303,49 @@ const projects = [
     name: "SMS",
     description:
       "Developed a full-featured Supermarket Mgt System using Java with MVC architecture. Key features include inventory control, billing, user management, exception handling, and transaction safety. Implemented design patterns for efficient service management. Built with Java Swing for the UI and MySQL for data storage using JDBC.",
-      tags: [
-        {
-          name: "java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mysql",
-          color: "green-text-gradient",
-        },
-        {
-          name: "java swing",
-          color: "pink-text-gradient",
-        },
-      ],
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "java swing",
+        color: "pink-text-gradient",
+      },
+    ],
     image: sms,
     source_code_link: "https://github.com/SanjayaPrasadRajapaksha/Supermarket_MVC_CRUD",
   },
+  {
+    name: "LMS",
+    description:
+      "Developed a full-stack Learning Management System using React, Node.js, Express, and MongoDB. Implemented user authentication with Clerk, payments with Stripe, and file uploads via Cloudinary. The platform features course creation, progress tracking, and a responsive UI built with Tailwind CSS and Vite.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: lms, // Replace with actual image variable or URL
+    source_code_link: "https://github.com/SanjayaPrasadRajapaksha/LMS", // Update with correct repo link
+  }
+
 ];
 
 export { services, technologies, experiences, projects };
